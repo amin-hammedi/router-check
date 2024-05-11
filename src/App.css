@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 300px;
+  height: 400px;
+}
+
+.writer {
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.liste {
+  list-style: none;
+  display: flex;
+  margin-left: 650px;
+  position: absolute;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.search-nav h1 {
+  color: white;
+}
+
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1300px;
+  height: 1000px;
+}
+
+.poster:hover {
+  transform: translateY(-5px);
+}
+
+.poster {
+  width: 300px;
+  height: 600px;
+  margin: 20px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+  margin: 10px;
+}
+
+.poster img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.config {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 6px 0 6px;
+}
+
+.btn-delete {
+  background-color: #ff1818;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn-edit {
+  background-color: #4add00;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.info {
+  background-color: #1890ff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-delete:hover,
+.btn-edit:hover,
+.info:hover {
+  background-color: #000000;
+}
+
+.text {
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.btn2 {
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.search {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.btnadd {
+  margin-left: 848px;
+  position: relative;
+  bottom: 71px;
+  padding: 0.4rem;
+  border-radius: 5px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+
+.syno {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgb(255, 0, 204);
+  border-radius: 10px;
+}
+
+.syno h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
